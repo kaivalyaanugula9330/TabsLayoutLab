@@ -1,6 +1,10 @@
 package john.smith.tabslayout;
 
 // ViewPagerAdapter.java
+/*
+ * Name: Kaivalya Anugula
+ * Student ID: N01659330
+ */
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
