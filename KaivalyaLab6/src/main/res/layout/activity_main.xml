@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: Kaivalya Anugula
+Student ID: N01659330
+-->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- TabLayout for navigation between fragments -->
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
+        android:id="@+id/kaiTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabSelectedTextColor="@color/black"
@@ -16,10 +22,18 @@
         app:tabBackground="@drawable/tab_background_selector"
         android:layout_alignParentTop="true"/>
 
+    <!-- ViewPager2 for handling fragment navigation -->
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
+        android:id="@+id/kaiViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tabLayout" />
+        android:layout_below="@id/kaiTabLayout" />
+
+    <!-- Fragment Container for replacing fragments -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/kaiTabLayout" />
 
 </RelativeLayout>
