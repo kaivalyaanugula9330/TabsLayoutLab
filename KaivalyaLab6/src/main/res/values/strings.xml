@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Name: Kaivalya Anugula
+    Student ID: N01659330
+-->
+
+<resources>
+    <!-- App & Tabs -->
+    <string name="app_name">Tabs Layout Lab 6</string>
+    <string name="tab_1">Tab 1</string>
+    <string name="tab_2">Tab 2</string>
+
+    <!-- General Messages -->
+    <string name="welcome_message">Welcome to My App</string>
+    <string name="submit_button">Submit</string>
+
+    <!-- Fragment Titles -->
+    <string name="fragment_1_title">Fragment 1</string>
+    <string name="fragment_2_title">Fragment 2</string>
+
+    <!-- Color Selection -->
+    <string name="select_your_color">Select Your Color:</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_red">Red</string>
+    <string name="color_other">Other</string>
+    <string name="color_selected">Selected Color: </string>
+    <string name="your_full_name">KAIVALYA ANUGULA</string>
+    <string name="selected_color">Selected Color:</string>
+    <string name="no_data">NO DATA</string>
+
+    <!-- Sports Checkboxes -->
+    <string name="sport_hockey">Hockey</string>
+    <string name="sport_basketball">Basketball</string>
+    <string name="sport_baseball">Baseball</string>
+
+    <!-- Sport Button -->
+    <string name="sport_button">SPORT</string>
+
+    <!-- AlertDialog Messages -->
+    <string name="sports_selection">Selected Sports</string>
+    <string name="no_sports_selected">NO SPORTS</string>
+    <string name="selected_sports">Selected Sports:</string>
+    <string name="ok_button">OK</string>
+    <string name="selectedcolor">selectedColor</string>
+    <string name="colorkey">colorKey</string>
+    <string name="please_select_a_color">Please select a color</string>
+    <string name="selected_color1">"Selected Color: "</string>
+    <string name="selectedcolor1">selectedColor</string>
+    <string name="colorkey1">colorKey</string>
+
+</resources>
