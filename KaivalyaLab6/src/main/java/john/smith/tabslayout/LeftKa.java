@@ -28,7 +28,7 @@ public class LeftKa extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return inflater.inflate(R.layout.fragment_left_ka, container, false);
     }
 
     @Override
@@ -55,8 +55,8 @@ public class LeftKa extends Fragment {
 
             // Send selected color to RightSi using Fragment Result API
             Bundle bundle = new Bundle();
-            bundle.putString(getString(R.string.selectedcolor), selectedColor);
-            getParentFragmentManager().setFragmentResult(getString(R.string.colorkey), bundle);
+            bundle.putString(getString(R.string.selectedcolor1), selectedColor);
+            getParentFragmentManager().setFragmentResult(getString(R.string.colorkey1), bundle);
 
             // Switch to Tab 2
             ViewPager2 viewPager = requireActivity().findViewById(R.id.kaiViewPager);
@@ -64,3 +64,4 @@ public class LeftKa extends Fragment {
         });
     }
 }
+

@@ -26,7 +26,7 @@ public class RightAn extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_settings, container, false);
+        View view = inflater.inflate(R.layout.fragment_right_an, container, false);
 
         // Initialize Views
         kaiSelectedColorTextView = view.findViewById(R.id.kaiSelectedColorText);
