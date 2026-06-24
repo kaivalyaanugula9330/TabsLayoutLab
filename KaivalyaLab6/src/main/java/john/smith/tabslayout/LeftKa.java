@@ -1,6 +1,6 @@
 // Name: Kaivalya Anugula
 // Student ID: N01659330
-package john.smith.tabslayout;
+package kaivalya.anugula.tabslayout;
 
 import android.os.Bundle;
 

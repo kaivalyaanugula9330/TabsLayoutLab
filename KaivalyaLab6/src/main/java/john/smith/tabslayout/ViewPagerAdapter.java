@@ -1,4 +1,4 @@
-package john.smith.tabslayout;
+package kaivalya.anugula.tabslayout;
 
 // ViewPagerAdapter.java
 /*

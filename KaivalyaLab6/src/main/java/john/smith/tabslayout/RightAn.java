@@ -1,4 +1,4 @@
-package john.smith.tabslayout;
+package kaivalya.anugula.tabslayout;
 /*
  * Name: Kaivalya Anugula
  * Student ID: N01659330
