@@ -43,31 +43,28 @@ public class RightAn extends Fragment {
             String displayText = getString(R.string.selected_color) + " " + selectedColor;
             kaiSelectedColorTextView.setText(displayText);
 
-            // Set the color based on the selected color
-            switch (selectedColor) {
-                case "Green":
-                case "Vert": // French translation
-                    kaiSelectedColorTextView.setTextColor(Color.GREEN);
-                    break;
-                case "Yellow":
-                case "Jaune": // French translation
-                    kaiSelectedColorTextView.setTextColor(Color.YELLOW);
-                    break;
-                case "Red":
-                case "Rouge": // French translation
-                    kaiSelectedColorTextView.setTextColor(Color.RED);
-                    break;
-                case "Other":
-                    kaiSelectedColorTextView.setTextColor(Color.DKGRAY);
-                    break;
-                default:
-                    kaiSelectedColorTextView.setTextColor(Color.GRAY);
-                    break;
+            // Set the color based on the selected color (using string references)
+            String colorGreen = getString(R.string.color_green);
+            String colorYellow = getString(R.string.color_yellow);
+            String colorRed = getString(R.string.color_red);
+            String colorOther = getString(R.string.color_other);
+
+            if (selectedColor.equals(colorGreen)) {
+                kaiSelectedColorTextView.setTextColor(Color.GREEN);
+            } else if (selectedColor.equals(colorYellow)) {
+                kaiSelectedColorTextView.setTextColor(Color.YELLOW);
+            } else if (selectedColor.equals(colorRed)) {
+                kaiSelectedColorTextView.setTextColor(Color.RED);
+            } else if (selectedColor.equals(colorOther)) {
+                kaiSelectedColorTextView.setTextColor(Color.DKGRAY);
+            } else {
+                kaiSelectedColorTextView.setTextColor(Color.GRAY);
             }
         });
 
         //  Handle SPORT button click
         kaiSportBtn.setOnClickListener(v -> {
+
             StringBuilder selectedSports = new StringBuilder();
 
             if (kaiCheckHockey.isChecked()) {
@@ -79,6 +76,7 @@ public class RightAn extends Fragment {
             if (kaiCheckBaseball.isChecked()) {
                 selectedSports.append(getString(R.string.sport_baseball)).append("\n");
             }
+
 
             //  Show selected sports in AlertDialog with sport.png image
             String displayMessage = selectedSports.length() == 0
@@ -93,6 +91,8 @@ public class RightAn extends Fragment {
                     .show();
         });
 
+
         return view;
+
     }
 }

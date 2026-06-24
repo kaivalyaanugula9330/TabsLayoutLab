@@ -45,7 +45,8 @@
     <string name="ok_button">OK</string>
     <string name="selectedcolor">selectedColor</string>
     <string name="colorkey">colorKey</string>
-    <string name="please_select_a_color">Please select a color</string>
+    <string name="please_select_a_color">Veuillez sélectionner une couleur</string>
+    <string name="selected_color1">Couleur sélectionnée :</string>
     <string name="colorkey1">colorKey</string>
 
 </resources>
